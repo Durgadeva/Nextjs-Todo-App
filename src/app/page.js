@@ -5,7 +5,7 @@ import TodoList from "./todolist";
 import TodoItem from "./todoitem";
 import { TodoProvider } from "./storeWrapper";
 
-const Home = () => {
+const Home = ({ postData }) => {
   return (
     <TodoProvider>
     <div className={styles.page}>        
